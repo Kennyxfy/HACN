@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_cat2" table="x_sogd_hacn_hacn" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Desktop</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>0</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89e54c35dbd20f00d13efa9ebf961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Desktop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laptop</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>1</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9e54c35dbd20f00d13efa9ebf961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Laptop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Server</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>2</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>49e54c35dbd20f00d13efa9ebf961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Server</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Printer</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>3</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5e54c35dbd20f00d13efa9ebf961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Printer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Network</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>4</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0de54c35dbd20f00d13efa9ebf9619a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Network</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monitor</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>5</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89e54c35dbd20f00d13efa9ebf9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Monitor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>POS</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>6</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09e54c35dbd20f00d13efa9ebf9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>POS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Storage</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>7</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85e54c35dbd20f00d13efa9ebf9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Storage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>8</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05e54c35dbd20f00d13efa9ebf9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>General</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>9</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81e54c35dbd20f00d13efa9ebf9619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OS</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>10</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01e54c35dbd20f00d13efa9ebf9619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>OS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Office</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>12</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01e54c35dbd20f00d13efa9ebf9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Office</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email System</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>13</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8de54c35dbd20f00d13efa9ebf9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Email System</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Antrvirus</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>14</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0de54c35dbd20f00d13efa9ebf9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Antrvirus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Network Setting</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>15</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89e54c35dbd20f00d13efa9ebf9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Network Setting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Driver</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>16</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09e54c35dbd20f00d13efa9ebf9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Driver</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internet Explorer</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>17</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85e54c35dbd20f00d13efa9ebf9619ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Internet Explorer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Install</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>19</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85e54c35dbd20f00d13efa9ebf9619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Install</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Calling</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>20</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05e54c35dbd20f00d13efa9ebf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Calling</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Health Check</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>21</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81e54c35dbd20f00d13efa9ebf9619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Health Check</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivery</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>22</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01e54c35dbd20f00d13efa9ebf9619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Delivery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cat2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Standby</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>23</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8de54c35dbd20f00d13efa9ebf9619b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+            <value>Standby</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_cat2</element>
+            <name>x_sogd_hacn_hacn</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:30:13</sys_created_on>
+            <sys_id>85e54c35dbd20f00d13efa9ebf961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_cat2</sys_name>
+            <sys_package display_value="HACN" source="x_sogd_hacn">a955f329db920f00d13efa9ebf961905</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HACN">a955f329db920f00d13efa9ebf961905</sys_scope>
+            <sys_update_name>sys_choice_x_sogd_hacn_hacn_u_cat2</sys_update_name>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

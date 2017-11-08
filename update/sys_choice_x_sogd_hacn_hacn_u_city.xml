@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_city" table="x_sogd_hacn_hacn" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>上海</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>0</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f77c875dbd20f00d13efa9ebf961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>上海</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>北京</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>1</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f77c875dbd20f00d13efa9ebf961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>北京</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>南京</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>2</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f77c875dbd20f00d13efa9ebf961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>南京</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>杭州</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>3</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b77c875dbd20f00d13efa9ebf96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>杭州</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>宁波</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>4</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b77c875dbd20f00d13efa9ebf96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>宁波</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>福州</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>5</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9777c875dbd20f00d13efa9ebf96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>福州</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>厦门</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>6</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1777c875dbd20f00d13efa9ebf96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>厦门</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>广州</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>7</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9377c875dbd20f00d13efa9ebf96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>广州</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>佛山</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>8</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1377c875dbd20f00d13efa9ebf96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>佛山</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>中山</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>9</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f77c875dbd20f00d13efa9ebf96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>中山</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>珠海</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>10</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f77c875dbd20f00d13efa9ebf961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>珠海</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>惠州</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>11</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b77c875dbd20f00d13efa9ebf961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>惠州</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>江门</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>12</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b77c875dbd20f00d13efa9ebf961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>江门</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>汕头</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>13</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9777c875dbd20f00d13efa9ebf961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>汕头</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>深圳</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>14</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1777c875dbd20f00d13efa9ebf961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>深圳</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>东莞</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>15</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9377c875dbd20f00d13efa9ebf961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>东莞</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>天津</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>16</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1377c875dbd20f00d13efa9ebf961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>天津</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>昆明</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>17</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f77c875dbd20f00d13efa9ebf961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>昆明</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>成都</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>18</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f77c875dbd20f00d13efa9ebf961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>成都</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_city</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>济南</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>19</sequence>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b77c875dbd20f00d13efa9ebf961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+            <value>济南</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_city</element>
+            <name>x_sogd_hacn_hacn</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-08 09:37:12</sys_created_on>
+            <sys_id>5b77c875dbd20f00d13efa9ebf961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_city</sys_name>
+            <sys_package display_value="HACN" source="x_sogd_hacn">a955f329db920f00d13efa9ebf961905</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HACN">a955f329db920f00d13efa9ebf961905</sys_scope>
+            <sys_update_name>sys_choice_x_sogd_hacn_hacn_u_city</sys_update_name>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-08 09:37:12</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

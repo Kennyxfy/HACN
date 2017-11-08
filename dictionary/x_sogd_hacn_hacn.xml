@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="HACN" max_length="40" name="x_sogd_hacn_hacn" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Action" max_length="40" name="u_action" type="string"/>
+        <element label="Actual arrival" max_length="40" name="u_actual_arrival" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="u_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Asset No" max_length="40" name="u_asset_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Assign To" mandatory="true" max_length="40" name="u_assign_to" type="string">
+            <choice>
+                <element label="3rd Service" sequence="0" value="3rd Service"/>
+                <element label="Center" sequence="1" value="Center"/>
+                <element label="Control" sequence="2" value="Control"/>
+                <element label="Customer IT" sequence="3" value="Customer IT"/>
+                <element label="Customer Vender" sequence="4" value="Customer Vender"/>
+                <element label="Helpdesk" sequence="5" value="Helpdesk"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Call From" max_length="40" name="u_call_from" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Call Source" mandatory="true" max_length="40" name="u_call_source" type="string">
+            <choice>
+                <element label="Email" sequence="0" value="Email"/>
+                <element label="Phone" sequence="1" value="Phone"/>
+                <element label="Internet" sequence="2" value="Internet"/>
+                <element label="Walk in" sequence="3" value="Walk in"/>
+                <element label="Voice Mail" sequence="4" value="Voice Mail"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Incident" label="Call Type" mandatory="true" max_length="40" name="u_call_type" type="string">
+            <choice>
+                <element label="Event" sequence="0" value="Event"/>
+                <element label="Incident" sequence="1" value="Incident"/>
+                <element label="Request" sequence="2" value="Request"/>
+                <element label="Complaint" sequence="3" value="Complaint"/>
+                <element label="Compliment" sequence="4" value="Compliment"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cat1" mandatory="true" max_length="40" name="u_cat1" type="string">
+            <choice>
+                <element label="Hardware" sequence="0" value="Hardware"/>
+                <element label="Software" sequence="1" value="Software"/>
+                <element label="Service" sequence="2" value="Service"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cat2" max_length="40" name="u_cat2" type="string">
+            <choice>
+                <element label="Desktop" sequence="0" value="Desktop"/>
+                <element label="Laptop" sequence="1" value="Laptop"/>
+                <element label="Server" sequence="2" value="Server"/>
+                <element label="Printer" sequence="3" value="Printer"/>
+                <element label="Network" sequence="4" value="Network"/>
+                <element label="Monitor" sequence="5" value="Monitor"/>
+                <element label="POS" sequence="6" value="POS"/>
+                <element label="Storage" sequence="7" value="Storage"/>
+                <element label="General" sequence="8" value="General"/>
+                <element label="Other" sequence="9" value="Other"/>
+                <element label="OS" sequence="10" value="OS"/>
+                <element label="Office" sequence="12" value="Office"/>
+                <element label="Email System" sequence="13" value="Email System"/>
+                <element label="Antrvirus" sequence="14" value="Antrvirus"/>
+                <element label="Network Setting" sequence="15" value="Network Setting"/>
+                <element label="Driver" sequence="16" value="Driver"/>
+                <element label="Internet Explorer" sequence="17" value="Internet Explorer"/>
+                <element label="Install" sequence="19" value="Install"/>
+                <element label="Calling" sequence="20" value="Calling"/>
+                <element label="Health Check" sequence="21" value="Health Check"/>
+                <element label="Delivery" sequence="22" value="Delivery"/>
+                <element label="Standby" sequence="23" value="Standby"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Center" max_length="40" name="u_center" type="string">
+            <choice>
+                <element dependent_value="上海" label="SH" sequence="0" value="SH"/>
+                <element dependent_value="北京" label="BJ" sequence="1" value="BJ"/>
+                <element dependent_value="南京" label="NJ" sequence="2" value="NJ"/>
+                <element dependent_value="杭州" label="HZ" sequence="3" value="HZ"/>
+                <element dependent_value="宁波" label="NB" sequence="4" value="NB"/>
+                <element dependent_value="福州" label="FZ" sequence="5" value="FZ"/>
+                <element dependent_value="厦门" label="XM" sequence="6" value="XM"/>
+                <element dependent_value="广州" label="GZ" sequence="7" value="GZ"/>
+                <element dependent_value="佛山" label="FS" sequence="8" value="FS"/>
+                <element dependent_value="中山" label="ZS" sequence="9" value="ZS"/>
+                <element dependent_value="珠海" label="ZH" sequence="10" value="ZH"/>
+                <element dependent_value="江门" label="JM" sequence="11" value="JM"/>
+                <element dependent_value="汕头" label="ST" sequence="12" value="ST"/>
+                <element dependent_value="深圳" label="SZ" sequence="13" value="SZ"/>
+                <element dependent_value="东莞" label="DG" sequence="14" value="DG"/>
+                <element dependent_value="天津" label="TJ" sequence="15" value="TJ"/>
+                <element dependent_value="昆明" label="KM" sequence="16" value="KM"/>
+                <element dependent_value="成都" label="CD" sequence="17" value="CD"/>
+                <element dependent_value="济南" label="JN" sequence="18" value="JN"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="City" max_length="40" name="u_city" type="string">
+            <choice>
+                <element label="上海" sequence="0" value="上海"/>
+                <element label="北京" sequence="1" value="北京"/>
+                <element label="南京" sequence="2" value="南京"/>
+                <element label="杭州" sequence="3" value="杭州"/>
+                <element label="宁波" sequence="4" value="宁波"/>
+                <element label="福州" sequence="5" value="福州"/>
+                <element label="厦门" sequence="6" value="厦门"/>
+                <element label="广州" sequence="7" value="广州"/>
+                <element label="佛山" sequence="8" value="佛山"/>
+                <element label="中山" sequence="9" value="中山"/>
+                <element label="珠海" sequence="10" value="珠海"/>
+                <element label="惠州" sequence="11" value="惠州"/>
+                <element label="江门" sequence="12" value="江门"/>
+                <element label="汕头" sequence="13" value="汕头"/>
+                <element label="深圳" sequence="14" value="深圳"/>
+                <element label="东莞" sequence="15" value="东莞"/>
+                <element label="天津" sequence="16" value="天津"/>
+                <element label="昆明" sequence="17" value="昆明"/>
+                <element label="成都" sequence="18" value="成都"/>
+                <element label="济南" sequence="19" value="济南"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Client Ref#" max_length="40" name="u_client_ref" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Client User ID" max_length="40" name="u_client_user_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Complete Date" max_length="40" name="u_complete_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Person" max_length="40" name="u_contact_person" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Phone No" max_length="40" name="u_contact_phone_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract No" max_length="40" name="u_contract_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contract Type" max_length="40" name="u_contract_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Create Note" max_length="40" name="u_create_note" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="市中区" label="District" max_length="40" name="u_district" type="string">
+            <choice>
+                <element label="浦东新区" sequence="0" value="浦东新区"/>
+                <element label="徐汇区" sequence="1" value="徐汇区"/>
+                <element label="长宁区" sequence="2" value="长宁区"/>
+                <element label="静安区" sequence="3" value="静安区"/>
+                <element label="黄埔区" sequence="4" value="黄埔区"/>
+                <element label="朝阳区" sequence="5" value="朝阳区"/>
+                <element label="海淀区" sequence="6" value="海淀区"/>
+                <element label="东城区" sequence="7" value="东城区"/>
+                <element label="鼓楼区" sequence="8" value="鼓楼区"/>
+                <element label="江东区" sequence="9" value="江东区"/>
+                <element label="天河区" sequence="10" value="天河区"/>
+                <element label="海珠区" sequence="11" value="海珠区"/>
+                <element label="越秀区" sequence="12" value="越秀区"/>
+                <element label="南海区" sequence="13" value="南海区"/>
+                <element label="顺德区" sequence="14" value="顺德区"/>
+                <element label="蓬江区" sequence="15" value="蓬江区"/>
+                <element label="龙湖区" sequence="16" value="龙湖区"/>
+                <element label="福田区" sequence="17" value="福田区"/>
+                <element label="前海深港合作区" sequence="18" value="前海深港合作区"/>
+                <element label="南山区" sequence="19" value="南山区"/>
+                <element label="罗湖区" sequence="20" value="罗湖区"/>
+                <element label="和平区" sequence="22" value="和平区"/>
+                <element label="五华区" sequence="23" value="五华区"/>
+                <element label="锦江区" sequence="24" value="锦江区"/>
+                <element label="市中区" sequence="25" value="市中区"/>
+            </choice>
+        </element>
+        <element label="Effective Date" max_length="40" name="u_effective_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Equipment Email" max_length="40" name="u_equipment_email" type="string"/>
+        <element label="Expiry Date" max_length="40" name="u_expiry_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Job" max_length="40" name="u_job" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model No" max_length="40" name="u_model_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model Type" max_length="40" name="u_model_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Pending Reason" max_length="40" name="u_pending_reason" type="string">
+            <choice>
+                <element label="Pending-User" sequence="0" value="Pending-User"/>
+                <element label="Pending-Vender" sequence="1" value="Pending-Vender"/>
+                <element label="Pending-Cust approval" sequence="2" value="Pending-Cust approval"/>
+                <element label="Pending-User IT" sequence="3" value="Pending-User IT"/>
+                <element label="Wait Control's Confirmation" sequence="4" value="Wait Control's Confirmation"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Phone No" max_length="40" name="u_phone_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ref No" max_length="40" name="u_ref_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Remark" max_length="40" name="u_remark" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Remark" max_length="40" name="u_remark_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial No" max_length="40" name="u_serial_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Service Level" max_length="40" name="u_service_level" type="string">
+            <choice>
+                <element label="2 hour" sequence="0" value="2 hour"/>
+                <element label="4 hour" sequence="1" value="4 hour"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Service Loc" max_length="40" name="u_service_loc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Service Time" max_length="40" name="u_service_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Solution" max_length="40" name="u_solution" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Contracted" label="SO Type" max_length="40" name="u_so_type" type="string">
+            <choice>
+                <element label="Contracted" sequence="0" value="Contracted"/>
+                <element label="Others" sequence="1" value="Others"/>
+                <element label="Per_call" sequence="2" value="Per_call"/>
+                <element label="Presale" sequence="3" value="Presale"/>
+                <element label="Purchase" sequence="4" value="Purchase"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Open" label="Status" max_length="40" name="u_status" type="string">
+            <choice>
+                <element label="Open" sequence="0" value="Open"/>
+                <element label="Pending" sequence="1" value="Pending"/>
+                <element label="Dispatch" sequence="2" value="Dispatch"/>
+                <element label="Complete" sequence="3" value="Complete"/>
+                <element label="Resolved" sequence="4" value="Resolved"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Symptom" mandatory="true" max_length="3000" name="u_symptom" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Trip" max_length="40" name="u_trip" type="string">
+            <choice>
+                <element label="X" sequence="0" value="X"/>
+                <element label="Onsite" sequence="1" value="Onsite"/>
+                <element label="Phone Support" sequence="2" value="Phone Support"/>
+                <element label="Remote Support" sequence="3" value="Remote Support"/>
+                <element label="Scheduled" sequence="4" value="Scheduled"/>
+                <element label="Other" sequence="5" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="User ID" max_length="40" name="u_user_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Ref#" max_length="40" name="u_vendor_ref" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor Warranty" max_length="40" name="u_vendor_warranty" type="string"/>
+        <element label="Want need" max_length="40" name="u_want_need" type="glide_date_time"/>
+    </element>
+</database>
