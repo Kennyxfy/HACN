@@ -16,8 +16,8 @@
                 <element label="Helpdesk" sequence="5" value="Helpdesk"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Call From" max_length="40" name="u_call_from" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Call Source" mandatory="true" max_length="40" name="u_call_source" type="string">
+        <element attributes="edge_encryption_enabled=true" label="Call From" mandatory="true" max_length="40" name="u_call_from" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Phone" label="Call Source" mandatory="true" max_length="40" name="u_call_source" type="string">
             <choice>
                 <element label="Email" sequence="0" value="Email"/>
                 <element label="Phone" sequence="1" value="Phone"/>
@@ -42,33 +42,33 @@
                 <element label="Service" sequence="2" value="Service"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Cat2" max_length="40" name="u_cat2" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_cat1" dependent_on_field="u_cat1" label="Cat2" mandatory="true" max_length="40" name="u_cat2" type="string" use_dependent_field="true">
             <choice>
-                <element label="Desktop" sequence="0" value="Desktop"/>
-                <element label="Laptop" sequence="1" value="Laptop"/>
-                <element label="Server" sequence="2" value="Server"/>
-                <element label="Printer" sequence="3" value="Printer"/>
-                <element label="Network" sequence="4" value="Network"/>
-                <element label="Monitor" sequence="5" value="Monitor"/>
-                <element label="POS" sequence="6" value="POS"/>
-                <element label="Storage" sequence="7" value="Storage"/>
-                <element label="General" sequence="8" value="General"/>
-                <element label="Other" sequence="9" value="Other"/>
-                <element label="OS" sequence="10" value="OS"/>
-                <element label="Office" sequence="12" value="Office"/>
-                <element label="Email System" sequence="13" value="Email System"/>
-                <element label="Antrvirus" sequence="14" value="Antrvirus"/>
-                <element label="Network Setting" sequence="15" value="Network Setting"/>
-                <element label="Driver" sequence="16" value="Driver"/>
-                <element label="Internet Explorer" sequence="17" value="Internet Explorer"/>
-                <element label="Install" sequence="19" value="Install"/>
-                <element label="Calling" sequence="20" value="Calling"/>
-                <element label="Health Check" sequence="21" value="Health Check"/>
-                <element label="Delivery" sequence="22" value="Delivery"/>
-                <element label="Standby" sequence="23" value="Standby"/>
+                <element dependent_value="Hardware" label="Desktop" sequence="0" value="Desktop"/>
+                <element dependent_value="Hardware" label="Laptop" sequence="1" value="Laptop"/>
+                <element dependent_value="Hardware" label="Server" sequence="2" value="Server"/>
+                <element dependent_value="Hardware" label="Printer" sequence="3" value="Printer"/>
+                <element dependent_value="Hardware" label="Network" sequence="4" value="Network"/>
+                <element dependent_value="Hardware" label="Monitor" sequence="5" value="Monitor"/>
+                <element dependent_value="Hardware" label="POS" sequence="6" value="POS"/>
+                <element dependent_value="Hardware" label="Storage" sequence="7" value="Storage"/>
+                <element dependent_value="Hardware" label="General" sequence="8" value="General"/>
+                <element dependent_value="Hardware" label="Other" sequence="9" value="Other"/>
+                <element dependent_value="Software" label="OS" sequence="10" value="OS"/>
+                <element dependent_value="Software" label="Office" sequence="12" value="Office"/>
+                <element dependent_value="Software" label="Email System" sequence="13" value="Email System"/>
+                <element dependent_value="Software" label="Antrvirus" sequence="14" value="Antrvirus"/>
+                <element dependent_value="Software" label="Network Setting" sequence="15" value="Network Setting"/>
+                <element dependent_value="Software" label="Driver" sequence="16" value="Driver"/>
+                <element dependent_value="Software" label="Internet Explorer" sequence="17" value="Internet Explorer"/>
+                <element dependent_value="Service" label="Install" sequence="19" value="Install"/>
+                <element dependent_value="Service" label="Calling" sequence="20" value="Calling"/>
+                <element dependent_value="Service" label="Health Check" sequence="21" value="Health Check"/>
+                <element dependent_value="Service" label="Delivery" sequence="22" value="Delivery"/>
+                <element dependent_value="Service" label="Standby" sequence="23" value="Standby"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Center" max_length="40" name="u_center" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_city" dependent_on_field="u_city" label="Center" max_length="40" name="u_center" type="string" use_dependent_field="true">
             <choice>
                 <element dependent_value="上海" label="SH" sequence="0" value="SH"/>
                 <element dependent_value="北京" label="BJ" sequence="1" value="BJ"/>
@@ -91,7 +91,7 @@
                 <element dependent_value="济南" label="JN" sequence="18" value="JN"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="City" max_length="40" name="u_city" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="City" mandatory="true" max_length="40" name="u_city" type="string">
             <choice>
                 <element label="上海" sequence="0" value="上海"/>
                 <element label="北京" sequence="1" value="北京"/>
@@ -118,12 +118,12 @@
         <element attributes="edge_encryption_enabled=true" label="Client Ref#" max_length="40" name="u_client_ref" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Client User ID" max_length="40" name="u_client_user_id" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Complete Date" max_length="40" name="u_complete_date" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Contact Person" max_length="40" name="u_contact_person" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Contact Phone No" max_length="40" name="u_contact_phone_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Person" mandatory="true" max_length="40" name="u_contact_person" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Phone No" mandatory="true" max_length="40" name="u_contact_phone_no" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contract No" max_length="40" name="u_contract_no" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contract Type" max_length="40" name="u_contract_type" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Create Note" max_length="40" name="u_create_note" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="市中区" label="District" max_length="40" name="u_district" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="District" max_length="40" name="u_district" read_only="true" type="string">
             <choice>
                 <element label="浦东新区" sequence="0" value="浦东新区"/>
                 <element label="徐汇区" sequence="1" value="徐汇区"/>
@@ -167,7 +167,7 @@
                 <element label="Wait Control's Confirmation" sequence="4" value="Wait Control's Confirmation"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Phone No" max_length="40" name="u_phone_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone No" mandatory="true" max_length="40" name="u_phone_no" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Ref No" max_length="40" name="u_ref_no" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Remark" max_length="40" name="u_remark" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Remark" max_length="40" name="u_remark_1" type="string"/>
@@ -178,7 +178,63 @@
                 <element label="4 hour" sequence="1" value="4 hour"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Service Loc" max_length="40" name="u_service_loc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_city" dependent_on_field="u_city" label="Service Loc" mandatory="true" max_length="40" name="u_service_loc" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="上海" label="总行-上海证券大厦" sequence="0" value="总行-上海证券大厦"/>
+                <element dependent_value="上海" label="总行-恒生银行大厦" sequence="1" value="总行-恒生银行大厦"/>
+                <element dependent_value="上海" label="上海分行" sequence="2" value="上海分行"/>
+                <element dependent_value="上海" label="上海安福路支行" sequence="3" value="上海安福路支行"/>
+                <element dependent_value="上海" label="上海徐家汇支行" sequence="4" value="上海徐家汇支行"/>
+                <element dependent_value="上海" label="上海古北支行" sequence="5" value="上海古北支行"/>
+                <element dependent_value="上海" label="上海大拇指支行" sequence="6" value="上海大拇指支行"/>
+                <element dependent_value="上海" label="上海静安支行" sequence="7" value="上海静安支行"/>
+                <element dependent_value="上海" label="上海静安嘉里中心支行" sequence="8" value="上海静安嘉里中心支行"/>
+                <element dependent_value="上海" label="上海静安嘉里中心第二支行" sequence="9" value="上海静安嘉里中心第二支行"/>
+                <element dependent_value="上海" label="上海淮海路支行" sequence="10" value="上海淮海路支行"/>
+                <element dependent_value="上海" label="上海虹桥支行" sequence="11" value="上海虹桥支行"/>
+                <element dependent_value="上海" label="上海自贸试验区支行" sequence="12" value="上海自贸试验区支行"/>
+                <element dependent_value="上海" label="上海瑞金路支行" sequence="13" value="上海瑞金路支行"/>
+                <element dependent_value="上海" label="ZJ机房" sequence="14" value="ZJ机房"/>
+                <element dependent_value="上海" label="上海国金中心" sequence="15" value="上海国金中心"/>
+                <element dependent_value="北京" label="北京分行" sequence="16" value="北京分行"/>
+                <element dependent_value="北京" label="北京中关村支行" sequence="17" value="北京中关村支行"/>
+                <element dependent_value="北京" label="北京酒仙桥支行" sequence="18" value="北京酒仙桥支行"/>
+                <element dependent_value="北京" label="北京嘉里中心支行" sequence="19" value="北京嘉里中心支行"/>
+                <element dependent_value="南京" label="南京分行" sequence="20" value="南京分行"/>
+                <element dependent_value="杭州" label="杭州分行" sequence="21" value="杭州分行"/>
+                <element dependent_value="宁波" label="宁波分行" sequence="22" value="宁波分行"/>
+                <element dependent_value="福州" label="福州分行" sequence="23" value="福州分行"/>
+                <element dependent_value="福州" label="福州鼓楼支行" sequence="24" value="福州鼓楼支行"/>
+                <element dependent_value="厦门" label="厦门分行" sequence="25" value="厦门分行"/>
+                <element dependent_value="广州" label="广州分行" sequence="26" value="广州分行"/>
+                <element dependent_value="广州" label="广州珠江新城支行" sequence="27" value="广州珠江新城支行"/>
+                <element dependent_value="广州" label="广州江南西路支行" sequence="28" value="广州江南西路支行"/>
+                <element dependent_value="广州" label="广州天河北路支行" sequence="29" value="广州天河北路支行"/>
+                <element dependent_value="广州" label="广州东山支行" sequence="30" value="广州东山支行"/>
+                <element dependent_value="广州" label="广州越秀支行" sequence="31" value="广州越秀支行"/>
+                <element dependent_value="广州" label="广州中信广场支行" sequence="32" value="广州中信广场支行"/>
+                <element dependent_value="佛山" label="佛山支行" sequence="33" value="佛山支行"/>
+                <element dependent_value="中山" label="中山支行" sequence="34" value="中山支行"/>
+                <element dependent_value="佛山" label="顺德支行" sequence="35" value="顺德支行"/>
+                <element dependent_value="珠海" label="珠海支行" sequence="36" value="珠海支行"/>
+                <element dependent_value="惠州" label="惠州支行" sequence="37" value="惠州支行"/>
+                <element dependent_value="江门" label="江门支行" sequence="38" value="江门支行"/>
+                <element dependent_value="汕头" label="汕头支行" sequence="39" value="汕头支行"/>
+                <element dependent_value="深圳" label="深圳分行" sequence="40" value="深圳分行"/>
+                <element dependent_value="深圳" label="深圳前海支行" sequence="41" value="深圳前海支行"/>
+                <element dependent_value="深圳" label="深圳南山海岸城支行" sequence="42" value="深圳南山海岸城支行"/>
+                <element dependent_value="深圳" label="深圳福田中心支行" sequence="43" value="深圳福田中心支行"/>
+                <element dependent_value="深圳" label="深圳罗湖支行" sequence="44" value="深圳罗湖支行"/>
+                <element dependent_value="深圳" label="深圳后海支行" sequence="45" value="深圳后海支行"/>
+                <element dependent_value="深圳" label="深圳南山华侨城支行" sequence="46" value="深圳南山华侨城支行"/>
+                <element dependent_value="东莞" label="东莞分行" sequence="47" value="东莞分行"/>
+                <element dependent_value="天津" label="天津分行" sequence="48" value="天津分行"/>
+                <element dependent_value="天津" label="天津津门支行" sequence="49" value="天津津门支行"/>
+                <element dependent_value="昆明" label="昆明分行" sequence="50" value="昆明分行"/>
+                <element dependent_value="成都" label="成都分行" sequence="51" value="成都分行"/>
+                <element dependent_value="济南" label="济南分行" sequence="52" value="济南分行"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Service Time" max_length="40" name="u_service_time" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Solution" max_length="40" name="u_solution" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="Contracted" label="SO Type" max_length="40" name="u_so_type" type="string">

@@ -16,8 +16,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>u_cat1</dependent>
+        <dependent_on_field>u_cat1</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -27,7 +27,7 @@
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_sogd_hacn_hacn</name>
         <next_element/>
@@ -48,18 +48,18 @@
         <sys_created_by>Fayu.xu</sys_created_by>
         <sys_created_on>2017-11-08 08:39:13</sys_created_on>
         <sys_id>bd3af36ddb920f00d13efa9ebf961914</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Cat2</sys_name>
         <sys_package display_value="HACN" source="x_sogd_hacn">a955f329db920f00d13efa9ebf961905</sys_package>
         <sys_policy/>
         <sys_scope display_value="HACN">a955f329db920f00d13efa9ebf961905</sys_scope>
         <sys_update_name>sys_dictionary_x_sogd_hacn_hacn_u_cat2</sys_update_name>
         <sys_updated_by>Fayu.xu</sys_updated_by>
-        <sys_updated_on>2017-11-08 09:30:13</sys_updated_on>
+        <sys_updated_on>2017-11-09 01:36:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
