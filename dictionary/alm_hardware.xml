@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="alm_asset" label="ハードウェア" max_length="40" name="alm_hardware" type="collection">
+        <element label="Floor" max_length="40" name="x_sogd_hacn_floor" type="string"/>
+        <element label="House Name" max_length="40" name="x_sogd_hacn_house_name" type="string"/>
+        <element label="Machine Name" max_length="40" name="x_sogd_hacn_machine_name" type="string"/>
+        <element label="MA Number" max_length="40" name="x_sogd_hacn_ma_number" type="string"/>
+        <element label="Seat Number" max_length="40" name="x_sogd_hacn_seat_number" type="string"/>
+        <element label="SubModel" max_length="40" name="x_sogd_hacn_submodel" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_sogd_hacn.hacn</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>hacn</name>
+        <script><![CDATA[var hacn = Class.create();
+hacn.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getCmnLocation:function(){
+		var u_service_loc=this.getParameter("sysparm_u_service_loc");
+		//创建数据库连接
+		var glideRecord=new GlideRecord('cmn_location');
+		//查询条件，cmn_location 中的 name字段等于选中的u_service_loc
+		glideRecord.addQuery("name",u_service_loc);
+		//执行查询,并回调recResponse方法
+		glideRecord.query();
+		//判断是否有数据
+		if(glideRecord.next()){
+			//从cmn_location表中获取street字段的值 为address字段赋值
+			return glideRecord.street+"@"+glideRecord.x_sogd_hacn_district;
+			//不能return  glideRecord
+		}
+		return null;
+	},
+	type: 'hacn'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Peng.yanyong</sys_created_by>
+        <sys_created_on>2017-11-09 08:48:17</sys_created_on>
+        <sys_id>dd550d4a0fd20f008e6805ace1050e4e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>hacn</sys_name>
+        <sys_package display_value="HACN" source="x_sogd_hacn">a955f329db920f00d13efa9ebf961905</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HACN">a955f329db920f00d13efa9ebf961905</sys_scope>
+        <sys_update_name>sys_script_include_dd550d4a0fd20f008e6805ace1050e4e</sys_update_name>
+        <sys_updated_by>Peng.yanyong</sys_updated_by>
+        <sys_updated_on>2017-11-10 05:43:02</sys_updated_on>
+    </sys_script_include>
+</record_update>

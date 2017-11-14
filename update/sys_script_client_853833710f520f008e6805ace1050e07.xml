@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>show address</description>
+        <field>u_service_loc</field>
+        <global>true</global>
+        <messages/>
+        <name>getAddress</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	//获取选中的service Loc 显示的值
+	var u_service_loc=g_form.getValue("u_service_loc");
+	// 	g_form.addInfoMessage(">>>>>"+u_service_loc);
+	// GlideAjax 的用法 https://developer.servicenow.com/app.do#!/api_doc?v=jakarta&id=c_GlideAjaxAPI
+	//script Include 中的name
+	var ga=new GlideAjax("hacn");
+	//方法名
+	ga.addParam("sysparm_name","getCmnLocation");
+	//参数
+	ga.addParam("sysparm_u_service_loc",u_service_loc);
+	//回调
+	ga.getXML(getAddress);
+	
+}
+
+function getAddress(response){
+	var streetAndDistrict=response.responseXML.documentElement.getAttribute("answer");
+	if(streetAndDistrict==null){
+		return ;
+	}
+// 	g_form.addInfoMessage(">>>>>>"+streetAndDistrict);
+	g_form.setValue("u_address",streetAndDistrict.split("@")[0]);
+	g_form.setValue("u_district",streetAndDistrict.split("@")[1]);
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Peng.yanyong</sys_created_by>
+        <sys_created_on>2017-11-09 08:22:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>853833710f520f008e6805ace1050e07</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>getAddress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HACN" source="x_sogd_hacn">a955f329db920f00d13efa9ebf961905</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HACN">a955f329db920f00d13efa9ebf961905</sys_scope>
+        <sys_update_name>sys_script_client_853833710f520f008e6805ace1050e07</sys_update_name>
+        <sys_updated_by>Peng.yanyong</sys_updated_by>
+        <sys_updated_on>2017-11-10 05:46:39</sys_updated_on>
+        <table>x_sogd_hacn_hacn</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

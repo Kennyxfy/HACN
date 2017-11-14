@@ -5,7 +5,7 @@
             <dependent_value/>
             <element>u_assign_to</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>3rd Service</label>
             <language>en</language>
             <name>x_sogd_hacn_hacn</name>
@@ -15,16 +15,16 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>5bd204f1dbd20f00d13efa9ebf96190c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:17:00</sys_updated_on>
+            <sys_updated_on>2017-11-09 08:46:32</sys_updated_on>
             <value>3rd Service</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_assign_to</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Center</label>
             <language>en</language>
             <name>x_sogd_hacn_hacn</name>
@@ -34,16 +34,16 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9bd204f1dbd20f00d13efa9ebf96190d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:17:00</sys_updated_on>
+            <sys_updated_on>2017-11-09 08:46:32</sys_updated_on>
             <value>Center</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_assign_to</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Control</label>
             <language>en</language>
             <name>x_sogd_hacn_hacn</name>
@@ -53,16 +53,16 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1bd204f1dbd20f00d13efa9ebf96190e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:17:00</sys_updated_on>
+            <sys_updated_on>2017-11-09 08:46:32</sys_updated_on>
             <value>Control</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_assign_to</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Customer IT</label>
             <language>en</language>
             <name>x_sogd_hacn_hacn</name>
@@ -72,16 +72,16 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>97d204f1dbd20f00d13efa9ebf96190f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:17:00</sys_updated_on>
+            <sys_updated_on>2017-11-09 08:46:32</sys_updated_on>
             <value>Customer IT</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_assign_to</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Customer Vender</label>
             <language>en</language>
             <name>x_sogd_hacn_hacn</name>
@@ -91,16 +91,16 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>17d204f1dbd20f00d13efa9ebf961910</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:17:00</sys_updated_on>
+            <sys_updated_on>2017-11-09 08:46:32</sys_updated_on>
             <value>Customer Vender</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_assign_to</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Helpdesk</label>
             <language>en</language>
             <name>x_sogd_hacn_hacn</name>
@@ -110,9 +110,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>93d204f1dbd20f00d13efa9ebf961911</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:17:00</sys_updated_on>
+            <sys_updated_on>2017-11-09 08:46:32</sys_updated_on>
             <value>Helpdesk</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

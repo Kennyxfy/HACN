@@ -5,13 +5,13 @@
             <element>u_center</element>
             <position>0</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 08:46:40</sys_created_on>
-            <sys_id>4febbbeddb920f00d13efa9ebf961907</sys_id>
+            <sys_created_on>2017-11-09 09:17:29</sys_created_on>
+            <sys_id>509c8dc6db5e0f00d13efa9ebf961931</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Order" display_value="Service Order" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">feeb7beddb920f00d13efa9ebf9619af</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 08:46:40</sys_updated_on>
+            <sys_updated_on>2017-11-09 09:17:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,69 +19,83 @@
             <element>u_vendor_ref</element>
             <position>1</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 08:46:40</sys_created_on>
-            <sys_id>cfebbbeddb920f00d13efa9ebf961907</sys_id>
+            <sys_created_on>2017-11-09 09:17:29</sys_created_on>
+            <sys_id>d09c8dc6db5e0f00d13efa9ebf961931</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Order" display_value="Service Order" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">feeb7beddb920f00d13efa9ebf9619af</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 08:46:40</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_remark_1</element>
-            <position>2</position>
-            <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 08:46:40</sys_created_on>
-            <sys_id>43ebbbeddb920f00d13efa9ebf961908</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Service Order" display_value="Service Order" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">feeb7beddb920f00d13efa9ebf9619af</sys_ui_section>
-            <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 08:46:40</sys_updated_on>
+            <sys_updated_on>2017-11-09 09:17:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 08:46:40</sys_created_on>
-            <sys_id>c3ebbbeddb920f00d13efa9ebf961908</sys_id>
+            <sys_created_on>2017-11-09 09:17:29</sys_created_on>
+            <sys_id>549c8dc6db5e0f00d13efa9ebf961931</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Order" display_value="Service Order" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">feeb7beddb920f00d13efa9ebf9619af</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 08:46:40</sys_updated_on>
+            <sys_updated_on>2017-11-09 09:17:29</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_so_type</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 08:46:40</sys_created_on>
-            <sys_id>47ebbbeddb920f00d13efa9ebf961908</sys_id>
+            <sys_created_on>2017-11-09 09:17:29</sys_created_on>
+            <sys_id>d49c8dc6db5e0f00d13efa9ebf961931</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Order" display_value="Service Order" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">feeb7beddb920f00d13efa9ebf9619af</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 08:46:40</sys_updated_on>
+            <sys_updated_on>2017-11-09 09:17:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_client_ref</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 08:46:40</sys_created_on>
-            <sys_id>c7ebbbeddb920f00d13efa9ebf961908</sys_id>
+            <sys_created_on>2017-11-09 09:17:29</sys_created_on>
+            <sys_id>589c8dc6db5e0f00d13efa9ebf961931</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Service Order" display_value="Service Order" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">feeb7beddb920f00d13efa9ebf9619af</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 08:46:40</sys_updated_on>
+            <sys_updated_on>2017-11-09 09:17:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-09 09:17:29</sys_created_on>
+            <sys_id>d89c8dc6db5e0f00d13efa9ebf961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Order" display_value="Service Order" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">feeb7beddb920f00d13efa9ebf9619af</sys_ui_section>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-09 09:17:29</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_remark_1</element>
+            <position>6</position>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-09 09:17:29</sys_created_on>
+            <sys_id>5c9c8dc6db5e0f00d13efa9ebf961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Service Order" display_value="Service Order" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">feeb7beddb920f00d13efa9ebf9619af</sys_ui_section>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-09 09:17:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

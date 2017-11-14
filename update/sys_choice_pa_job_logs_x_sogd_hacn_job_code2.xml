@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_sogd_hacn_job_code2" table="pa_job_logs" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>软件问题</dependent_value>
+            <element>x_sogd_hacn_job_code2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Web应用支持</label>
+            <language>en</language>
+            <name>pa_job_logs</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 02:39:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7daf892db164f00d13efa9ebf9619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 02:39:29</sys_updated_on>
+            <value>Web应用支持</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>软件问题</dependent_value>
+            <element>x_sogd_hacn_job_code2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>其它</label>
+            <language>en</language>
+            <name>pa_job_logs</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 02:45:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a64c78d2db164f00d13efa9ebf9619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 02:45:09</sys_updated_on>
+            <value>其它</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>硬件问题</dependent_value>
+            <element>x_sogd_hacn_job_code2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>其它设备</label>
+            <language>en</language>
+            <name>pa_job_logs</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 02:45:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b06cf8d2db164f00d13efa9ebf9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 02:45:40</sys_updated_on>
+            <value>其它设备</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>软件问题</dependent_value>
+            <element>x_sogd_hacn_job_code2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>域管理</label>
+            <language>en</language>
+            <name>pa_job_logs</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 02:47:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3acbcd2db164f00d13efa9ebf9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 02:47:00</sys_updated_on>
+            <value>域管理</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>硬件问题</dependent_value>
+            <element>x_sogd_hacn_job_code2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>存储设备</label>
+            <language>en</language>
+            <name>pa_job_logs</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 02:40:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e21bb492db164f00d13efa9ebf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 02:40:35</sys_updated_on>
+            <value>存储设备</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>软件问题</dependent_value>
+            <element>x_sogd_hacn_job_code2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>客户端软件支持</label>
+            <language>en</language>
+            <name>pa_job_logs</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 02:44:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7fbf4d2db164f00d13efa9ebf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 02:44:00</sys_updated_on>
+            <value>客户端软件支持</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>硬件问题</dependent_value>
+            <element>x_sogd_hacn_job_code2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>打印及扫描设备</label>
+            <language>en</language>
+            <name>pa_job_logs</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 02:41:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a25bb092db164f00d13efa9ebf961947</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 02:41:14</sys_updated_on>
+            <value>打印及扫描设备</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>软件问题</dependent_value>
+            <element>x_sogd_hacn_job_code2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>服务器软件支持</label>
+            <language>en</language>
+            <name>pa_job_logs</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 02:42:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>638bb0d2db164f00d13efa9ebf9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 02:42:38</sys_updated_on>
+            <value>服务器软件支持</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>硬件问题</dependent_value>
+            <element>x_sogd_hacn_job_code2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>网络通讯设备</label>
+            <language>en</language>
+            <name>pa_job_logs</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 02:46:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d58c74d2db164f00d13efa9ebf961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 02:46:22</sys_updated_on>
+            <value>网络通讯设备</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>硬件问题</dependent_value>
+            <element>x_sogd_hacn_job_code2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>计算机设备</label>
+            <language>en</language>
+            <name>pa_job_logs</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 02:43:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60db74d2db164f00d13efa9ebf961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 02:43:18</sys_updated_on>
+            <value>计算机设备</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>软件问题</dependent_value>
+            <element>x_sogd_hacn_job_code2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>零售软件支持</label>
+            <language>en</language>
+            <name>pa_job_logs</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 02:44:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>042cb492db164f00d13efa9ebf96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 02:44:29</sys_updated_on>
+            <value>零售软件支持</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_sogd_hacn_job_code2</element>
+            <name>pa_job_logs</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 02:39:29</sys_created_on>
+            <sys_id>cc1bfc52db164f00d13efa9ebf96199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sogd_hacn_job_code2</sys_name>
+            <sys_package display_value="HACN" source="x_sogd_hacn">a955f329db920f00d13efa9ebf961905</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HACN">a955f329db920f00d13efa9ebf961905</sys_scope>
+            <sys_update_name>sys_choice_pa_job_logs_x_sogd_hacn_job_code2</sys_update_name>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 02:39:29</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

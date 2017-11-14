@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_sogd_hacn_district" table="cmn_location" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>东区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:53:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e80c81dedb164f00d13efa9ebf961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:53:43</sys_updated_on>
+            <value>东区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>东城区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:50:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>923bc59edb164f00d13efa9ebf961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:50:35</sys_updated_on>
+            <value>东城区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>五华区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:58:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c2d8112db564f00d13efa9ebf9619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:58:35</sys_updated_on>
+            <value>五华区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>前海深港合作区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8b6c49dedb164f00d13efa9ebf961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:55:38</sys_updated_on>
+            <value>前海深港合作区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>南山区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:55:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>648c89dedb164f00d13efa9ebf961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:55:51</sys_updated_on>
+            <value>南山区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>南海区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:53:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7ebcd9edb164f00d13efa9ebf961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:53:20</sys_updated_on>
+            <value>南海区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>和平区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:57:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9cc8ddedb164f00d13efa9ebf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:57:10</sys_updated_on>
+            <value>和平区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>天河区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:52:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f9b4d9edb164f00d13efa9ebf961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:52:04</sys_updated_on>
+            <value>天河区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>市中区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:59:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>784d4512db564f00d13efa9ebf961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:59:14</sys_updated_on>
+            <value>市中区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>徐汇区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:47:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>909a495edb164f00d13efa9ebf9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:47:28</sys_updated_on>
+            <value>徐汇区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>朝阳区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:49:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc0b859edb164f00d13efa9ebf961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:49:34</sys_updated_on>
+            <value>朝阳区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>江东区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:51:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>358b099edb164f00d13efa9ebf9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:51:37</sys_updated_on>
+            <value>江东区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>浦东新区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:47:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b4a8d5edb164f00d13efa9ebf96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:47:07</sys_updated_on>
+            <value>浦东新区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>海淀区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:49:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>802b859edb164f00d13efa9ebf961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:49:51</sys_updated_on>
+            <value>海淀区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>海珠区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:52:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45bbcd9edb164f00d13efa9ebf961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:52:31</sys_updated_on>
+            <value>海珠区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>福田区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:55:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f15cc5dedb164f00d13efa9ebf9619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:55:13</sys_updated_on>
+            <value>福田区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>罗湖区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:56:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd9cc9dedb164f00d13efa9ebf961957</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:56:13</sys_updated_on>
+            <value>罗湖区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>蓬江区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:54:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>593c45dedb164f00d13efa9ebf9619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:54:37</sys_updated_on>
+            <value>蓬江区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>越秀区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:52:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>becb01dedb164f00d13efa9ebf96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:52:49</sys_updated_on>
+            <value>越秀区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>锦江区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:58:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c3dc112db564f00d13efa9ebf9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:58:55</sys_updated_on>
+            <value>锦江区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>长宁区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:48:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6eca419edb164f00d13efa9ebf961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:48:24</sys_updated_on>
+            <value>长宁区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>静安区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:48:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2dac19edb164f00d13efa9ebf961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:48:46</sys_updated_on>
+            <value>静安区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>顺德区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:54:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>231c81dedb164f00d13efa9ebf961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:54:17</sys_updated_on>
+            <value>顺德区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>黄浦区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:49:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40fa059edb164f00d13efa9ebf9619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:49:04</sys_updated_on>
+            <value>黄浦区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>鼓楼区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:51:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e47bc99edb164f00d13efa9ebf961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:51:14</sys_updated_on>
+            <value>鼓楼区</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_sogd_hacn_district</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>龙湖区</label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <sequence/>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:54:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>794cc1dedb164f00d13efa9ebf96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:54:53</sys_updated_on>
+            <value>龙湖区</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_sogd_hacn_district</element>
+            <name>cmn_location</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:47:07</sys_created_on>
+            <sys_id>b28a019edb164f00d13efa9ebf961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_sogd_hacn_district</sys_name>
+            <sys_package display_value="HACN" source="x_sogd_hacn">a955f329db920f00d13efa9ebf961905</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HACN">a955f329db920f00d13efa9ebf961905</sys_scope>
+            <sys_update_name>sys_choice_cmn_location_x_sogd_hacn_district</sys_update_name>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:47:07</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

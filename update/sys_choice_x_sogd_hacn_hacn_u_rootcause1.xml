@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_rootcause1" table="x_sogd_hacn_hacn" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rootcause1</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>现场等待用户</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>0</sequence>
+            <sys_created_by>Peng.yanyong</sys_created_by>
+            <sys_created_on>2017-11-10 03:34:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65b74d9e0f9a0f008e6805ace1050e5b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-13 08:49:19</sys_updated_on>
+            <value>现场等待用户</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rootcause1</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>硬件类健康检查</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>1</sequence>
+            <sys_created_by>Peng.yanyong</sys_created_by>
+            <sys_created_on>2017-11-10 03:34:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5b74d9e0f9a0f008e6805ace1050e5c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-13 08:49:19</sys_updated_on>
+            <value>硬件类健康检查</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rootcause1</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>硬件问题</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>2</sequence>
+            <sys_created_by>Peng.yanyong</sys_created_by>
+            <sys_created_on>2017-11-10 03:34:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5b74d9e0f9a0f008e6805ace1050e5d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-13 08:49:19</sys_updated_on>
+            <value>硬件问题</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rootcause1</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>软件类健康检查</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>3</sequence>
+            <sys_created_by>Peng.yanyong</sys_created_by>
+            <sys_created_on>2017-11-10 03:34:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65b74d9e0f9a0f008e6805ace1050e5e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-13 08:49:19</sys_updated_on>
+            <value>软件类健康检查</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_rootcause1</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>软件问题</label>
+            <language>en</language>
+            <name>x_sogd_hacn_hacn</name>
+            <sequence>4</sequence>
+            <sys_created_by>Peng.yanyong</sys_created_by>
+            <sys_created_on>2017-11-10 03:34:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25b74d9e0f9a0f008e6805ace1050e5f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-13 08:49:19</sys_updated_on>
+            <value>软件问题</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_rootcause1</element>
+            <name>x_sogd_hacn_hacn</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Peng.yanyong</sys_created_by>
+            <sys_created_on>2017-11-10 03:34:46</sys_created_on>
+            <sys_id>61b74d9e0f9a0f008e6805ace1050e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_rootcause1</sys_name>
+            <sys_package display_value="HACN" source="x_sogd_hacn">a955f329db920f00d13efa9ebf961905</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HACN">a955f329db920f00d13efa9ebf961905</sys_scope>
+            <sys_update_name>sys_choice_x_sogd_hacn_hacn_u_rootcause1</sys_update_name>
+            <sys_updated_by>Peng.yanyong</sys_updated_by>
+            <sys_updated_on>2017-11-10 03:34:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

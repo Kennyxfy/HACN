@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_assignto</field>
+        <global>true</global>
+        <messages/>
+        <name>callOutlook</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	g_form.getReference("u_assignto",function(group){
+		var assignTo=group.name.replace(/\s/g,"").toLowerCase();
+		if(assignTo=="CN-Service Desk".replace(/\s/g,"").toLowerCase())	{
+			var emails="Hu Fengquan (SOG CN)<fengquan.hu@sogservice.com.cn>; ricky.huang@sogservice.com<ricky.huang@sogservice.com>; Fu guang (SOGCN)<guang.fu@sogservice.com.cn>; ims<ims@sogservice.com.cn>; Tan Jie(SOG CN)<jie.tan@sogservice.com.cn>";
+			cnServiceDesk(emails);
+		}
+		if(assignTo=="HK IT Support Team".replace(/\s/g,"").toLowerCase()){
+			var emails="ithelpdesk@hangseng.com<ithelpdesk@hangseng.com>";
+			HKITSupportTeam(emails);
+		}
+		
+	});
+	
+	
+	// 	HK IT Support Team
+	//Type appropriate comment here, and begin script below
+	
+}
+
+
+function cnServiceDesk(emails){
+	
+	var body="SOG Ticket Number: "+g_form.getValue("number")+"%0d%0a %0d%0a";
+	body+="Customer: 恒生银行有限公司 %0d%0a";
+	body+="Call Date/Time:"+getNowTime(0)+" %0d%0a %0d%0a";
+	
+	body+="Contract No:"+g_form.getValue("u_contract_no")+"%0d%0a";
+	body+="Service Type:"+''+" %0d%0a";
+	body+="City:"+g_form.getValue('u_city')+" %0d%0a";
+	body+="Address:"+g_form.getValue("u_address")+" %0d%0a";
+	body+="Call From:"+g_form.getValue("u_call_form")+" %0d%0a";
+	body+="Phone No: "+g_form.getValue("u_phone_no")+" %0d%0a";
+	body+="Contact Person: "+g_form.getValue("u_contact_person")+" %0d%0a";
+	body+="Issue and problem:"+g_form.getValue("u_symptom")+" %0d%0a";
+	body+="Product Type:";
+	body+="Model: %0d%0a";
+	body+="Serial Number:"+g_form.getValue("u_serial_no")+" %0d%0a %0d%0a";
+	body+="Ref. No.:"+g_form.getValue("u_ref_no")+"%0d%0a %0d%0a";
+	body+="Escalate Contents:";
+	sendEmail(emails,"Escalation - 恒生银行有限公司 Request Service",body);
+}
+
+function HKITSupportTeam(emails){
+	var body="Dear All %0d%0a %0d%0a";
+	body+="TICKET NO.：: "+g_form.getValue("number")+" %0d%0a";
+	body+="CATEGORY:"+''+" %0d%0a %0d%0a";
+	
+	body+="ISSUE BY:"+''+"%0d%0a";
+	body+="ALL IN DATE:"+getNowTime(0)+" %0d%0a";
+	body+="USER NAME:"+''+" %0d%0a";
+	body+="USER CONTACT TEL:"+g_form.getValue("u_phone_no")+" %0d%0a";
+	body+="SYMPTOM/REQUEST:"+g_form.getValue("u_symptom")+" %0d%0a";
+	body+="REMARK: "+g_form.getValue("u_remark")+" %0d%0a";
+	var cc="ims<IMCEAEX-_O=FIRSTOU_OU=EXCH02_CN=RECIPIENTS_CN=IMS@sogservice.com.cn>; Tan Jie (SOG CN)<jie.tan@sogservice.com.cn>; User Email<Address@qymail.qq.com>";
+	sendEmail(emails,"Ticket No."+g_form.getValue("number"),body,cc);
+}
+
+function sendEmail(emails,subject,body,cc){
+// 	g_form.addInfoMessage('mailto:'+emails+'&subject='+subject+'&body='+body);
+	location.href = 'mailto:'+emails+'&subject='+subject+' &body='+body+"&cc="+cc;
+	g_form.addInfoMessage("outlook 触发成功,emails:"+emails);
+}
+
+//获取当前时间
+function getNowTime(addM){
+	var date=new Date();
+	if(addM){
+		date=addMinutes(date,addM);
+	}
+	var h=date.getHours();
+	var m=date.getMinutes();
+	var nowTime=date.getFullYear()+"-"+getTwo(date.getMonth()+1)+"-"+getTwo(date.getDate())+" "+getTwo(h)+":"+getTwo(m)+":"+getTwo(date.getSeconds());
+	return nowTime;
+}
+
+function getTwo(num){
+	return num <=9 ? ("0"+num) :num;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>Peng.yanyong</sys_created_by>
+        <sys_created_on>2017-11-10 06:18:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac66215e0fda0f008e6805ace1050e1f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>callOutlook</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HACN" source="x_sogd_hacn">a955f329db920f00d13efa9ebf961905</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HACN">a955f329db920f00d13efa9ebf961905</sys_scope>
+        <sys_update_name>sys_script_client_ac66215e0fda0f008e6805ace1050e1f</sys_update_name>
+        <sys_updated_by>Peng.yanyong</sys_updated_by>
+        <sys_updated_on>2017-11-10 06:43:34</sys_updated_on>
+        <table>x_sogd_hacn_hacn</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

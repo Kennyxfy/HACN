@@ -28,7 +28,7 @@
         <foreign_database/>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>1000</max_length>
         <name>x_sogd_hacn_hacn</name>
         <next_element/>
         <primary>false</primary>

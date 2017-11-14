@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="all_tables.text_index_translations=true" label="場所" max_length="40" name="cmn_location" text_index="true" type="collection">
+        <element choice="2" label="City for HACN" max_length="40" name="x_sogd_hacn_city" type="string">
+            <choice>
+                <element dependent_value="CHINA" label="BJ" language="cn" value="BJ"/>
+                <element dependent_value="CHINA" label="CD" language="cn" value="CD"/>
+                <element dependent_value="CHINA" label="DG" language="cn" value="DG"/>
+                <element dependent_value="CHINA" label="FS" language="cn" value="FS"/>
+                <element dependent_value="CHINA" label="FZ" language="cn" value="FZ"/>
+                <element dependent_value="CHINA" label="GZ" language="cn" value="GZ"/>
+                <element dependent_value="CHINA" label="HZ" language="cn" value="HZ"/>
+                <element dependent_value="CHINA" label="HZ" language="cn" value="HZ"/>
+                <element dependent_value="CHINA" label="JM" language="cn" value="JM"/>
+                <element dependent_value="CHINA" label="JN" language="cn" value="JN"/>
+                <element dependent_value="CHINA" label="KM" language="cn" value="KM"/>
+                <element dependent_value="CHINA" label="NB" language="cn" value="NB"/>
+                <element dependent_value="CHINA" label="NJ" language="cn" value="NJ"/>
+                <element dependent_value="CHINA" label="SH" language="cn" value="SH"/>
+                <element dependent_value="CHINA" label="ST" language="cn" value="ST"/>
+                <element dependent_value="CHINA" label="SZ" language="cn" value="SZ"/>
+                <element dependent_value="CNINA" label="TJ" language="cn" value="TJ"/>
+                <element dependent_value="CHINA" label="XM" language="cn" value="XM"/>
+                <element dependent_value="CHINA" label="ZH" language="cn" value="ZH"/>
+                <element dependent_value="CHINA" label="ZS" language="cn" value="ZS"/>
+                <element dependent_value="中国" label="上海" value="上海"/>
+                <element dependent_value="中国" label="东莞" value="东莞"/>
+                <element dependent_value="中国" label="中山" value="中山"/>
+                <element dependent_value="中国" label="佛山" value="佛山"/>
+                <element dependent_value="中国" label="北京" value="北京"/>
+                <element dependent_value="中国" label="南京" value="南京"/>
+                <element dependent_value="中国" label="厦门" value="厦门"/>
+                <element dependent_value="中国" label="天津" value="天津"/>
+                <element dependent_value="中国" label="宁波" value="宁波"/>
+                <element dependent_value="中国" label="广州" value="广州"/>
+                <element dependent_value="中国" label="惠州" value="惠州"/>
+                <element dependent_value="中国" label="成都" value="成都"/>
+                <element dependent_value="中国" label="昆明" value="昆明"/>
+                <element dependent_value="中国" label="杭州" value="杭州"/>
+                <element dependent_value="中国" label="汕头" value="汕头"/>
+                <element dependent_value="中国" label="江门" value="江门"/>
+                <element dependent_value="中国" label="济南" value="济南"/>
+                <element dependent_value="中国" label="深圳" value="深圳"/>
+                <element dependent_value="中国" label="珠海" value="珠海"/>
+                <element dependent_value="中国" label="福州" value="福州"/>
+            </choice>
+        </element>
+        <element choice="2" label="District " max_length="40" name="x_sogd_hacn_district" type="string">
+            <choice>
+                <element label="东区" value="东区"/>
+                <element label="东城区" value="东城区"/>
+                <element label="五华区" value="五华区"/>
+                <element label="前海深港合作区" value="前海深港合作区"/>
+                <element label="南山区" value="南山区"/>
+                <element label="南海区" value="南海区"/>
+                <element label="和平区" value="和平区"/>
+                <element label="天河区" value="天河区"/>
+                <element label="市中区" value="市中区"/>
+                <element label="徐汇区" value="徐汇区"/>
+                <element label="朝阳区" value="朝阳区"/>
+                <element label="江东区" value="江东区"/>
+                <element label="浦东新区" value="浦东新区"/>
+                <element label="海淀区" value="海淀区"/>
+                <element label="海珠区" value="海珠区"/>
+                <element label="福田区" value="福田区"/>
+                <element label="罗湖区" value="罗湖区"/>
+                <element label="蓬江区" value="蓬江区"/>
+                <element label="越秀区" value="越秀区"/>
+                <element label="锦江区" value="锦江区"/>
+                <element label="长宁区" value="长宁区"/>
+                <element label="静安区" value="静安区"/>
+                <element label="顺德区" value="顺德区"/>
+                <element label="黄浦区" value="黄浦区"/>
+                <element label="鼓楼区" value="鼓楼区"/>
+                <element label="龙湖区" value="龙湖区"/>
+            </choice>
+        </element>
+    </element>
+</database>

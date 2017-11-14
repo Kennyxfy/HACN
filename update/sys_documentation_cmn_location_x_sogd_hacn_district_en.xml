@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_sogd_hacn_district" label="District " language="en" table="cmn_location">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_sogd_hacn_district</element>
+            <help/>
+            <hint/>
+            <label>District </label>
+            <language>en</language>
+            <name>cmn_location</name>
+            <plural>District s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-10 03:34:28</sys_created_on>
+            <sys_id>a9a74ddadb164f00d13efa9ebf96194c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>District </sys_name>
+            <sys_package display_value="HACN" source="x_sogd_hacn">a955f329db920f00d13efa9ebf961905</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HACN">a955f329db920f00d13efa9ebf961905</sys_scope>
+            <sys_update_name>sys_documentation_cmn_location_x_sogd_hacn_district_en</sys_update_name>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-10 05:18:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
