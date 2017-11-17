@@ -3,13 +3,17 @@
     <element label="HACN" max_length="40" name="x_sogd_hacn_hacn" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Action" max_length="1000" name="u_action" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Action1" max_length="1000" name="u_action1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Action2" max_length="1000" name="u_action2" type="string"/>
         <element label="Actual arrival" max_length="40" name="u_actual_arrival" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Address" mandatory="true" max_length="40" name="u_address" type="string"/>
+        <element label="Asset No" max_length="32" name="u_assetno" reference="alm_hardware" reference_qual="asset_tagANYTHING^company=28a2b629db120f00d13efa9ebf96199a^EQ" reference_qual_condition="asset_tagANYTHING^company=28a2b629db120f00d13efa9ebf96199a^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Asset No" max_length="40" name="u_asset_no" type="string"/>
         <element choice="1" label="Assign To" mandatory="true" max_length="32" name="u_assignto" reference="sys_user_group" reference_qual="u_company=28a2b629db120f00d13efa9ebf96199a^EQ" reference_qual_condition="u_company=28a2b629db120f00d13efa9ebf96199a^EQ" type="reference">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Assign To" mandatory="true" max_length="40" name="u_assign_to" reference="sys_user_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Ation3" max_length="1000" name="u_ation3" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Call From" mandatory="true" max_length="40" name="u_call_from" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Call Source" mandatory="true" max_length="40" name="u_call_source" type="string">
             <choice>
@@ -110,12 +114,19 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Client Ref#" max_length="40" name="u_client_ref" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Client User ID" max_length="40" name="u_client_user_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Code description1" max_length="40" name="u_codedescription1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Code description2" max_length="40" name="u_codedescription2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Code description3" max_length="40" name="u_codedescription3" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Code description" max_length="40" name="u_code_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Complete Date" max_length="40" name="u_complete_date" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact Person" mandatory="true" max_length="40" name="u_contact_person" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contact Phone No" mandatory="true" max_length="40" name="u_contact_phone_no" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Contract No" max_length="40" name="u_contract_no" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Contract Type" max_length="40" name="u_contract_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="MA" label="Contract Type" max_length="40" name="u_contract_type" type="string">
+            <choice>
+                <element label="MA" sequence="0" value="MA"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Create Note" max_length="40" name="u_create_note" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" choice_field="x_sogd_hacn_district" choice_table="cmn_location" label="District" mandatory="true" max_length="40" name="u_district" type="string">
             <choice>
@@ -148,11 +159,20 @@
             </choice>
         </element>
         <element label="Effective Date" max_length="40" name="u_effective_date" type="glide_date"/>
+        <element label="End Time1" max_length="40" name="u_endtime1" type="glide_date_time"/>
+        <element label="End Time2" max_length="40" name="u_endtime2" type="glide_date_time"/>
+        <element label="End Time3" max_length="40" name="u_endtime3" type="glide_date_time"/>
         <element label="End Time" max_length="40" name="u_end_time" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Equipment Email" max_length="40" name="u_equipment_email" type="string"/>
+        <element label="ETA Date1" max_length="40" name="u_etadate1" type="glide_date_time"/>
+        <element label="ETA Date2" max_length="40" name="u_etadate2" type="glide_date_time"/>
+        <element label="ETA Date3" max_length="40" name="u_etadate3" type="glide_date_time"/>
         <element label="ETA Date" max_length="40" name="u_eta_date" type="glide_date_time"/>
         <element label="Expiry Date" max_length="40" name="u_expiry_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Job" max_length="40" name="u_job" type="string"/>
+        <element label="Job Code1" max_length="32" name="u_jobcode1" reference="u_job_code" type="reference"/>
+        <element label="Job Code2" max_length="32" name="u_jobcode2" reference="u_job_code" type="reference"/>
+        <element label="Job Code3" max_length="32" name="u_jobcode3" reference="u_job_code" type="reference"/>
         <element label="Job Code" max_length="32" name="u_job_code" reference="u_job_code" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Location" mandatory="true" max_length="32" name="u_location" reference="cmn_location" reference_qual="company=28a2b629db120f00d13efa9ebf96199a^EQ" reference_qual_condition="company=28a2b629db120f00d13efa9ebf96199a^EQ" type="reference" use_dependent_field="true">
             <choice/>
@@ -160,6 +180,9 @@
         <element attributes="edge_encryption_enabled=true" label="Model No" max_length="40" name="u_model_no" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Model Type" max_length="40" name="u_model_type" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name1" max_length="40" name="u_name1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name2" max_length="40" name="u_name2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name3" max_length="40" name="u_name3" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Pending Reason" max_length="40" name="u_pending_reason" type="string">
             <choice>
                 <element label="Pending-User" sequence="0" value="Pending-User"/>
@@ -171,20 +194,18 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Phone No" mandatory="true" max_length="40" name="u_phone_no" type="string"/>
         <element label="New Reference" max_length="32" name="u_reference_6" reference="cmdb_ci_appl_dot_net" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Ref No" max_length="40" name="u_ref_no" type="string"/>
+        <element label="Ref No" max_length="40" name="u_refno" reference="alm_hardware" reference_qual="company=28a2b629db120f00d13efa9ebf96199a^EQ" reference_qual_condition="company=28a2b629db120f00d13efa9ebf96199a^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Ref No" max_length="40" name="u_ref_no" reference="alm_hardware" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Remark" max_length="40" name="u_remark" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Remark" max_length="40" name="u_remark_1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="x_sogd_hacn_job_code1" label="RootCause1" max_length="40" name="u_rootcause1" type="string">
-            <choice/>
-        </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="x_sogd_hacn_job_code2" label="RootCause2" max_length="40" name="u_rootcause2" type="string" use_dependent_field="true">
-            <choice/>
-        </element>
+        <element attributes="edge_encryption_enabled=true" choice_field="x_sogd_hacn_job_code1" label="RootCause1" max_length="40" name="u_rootcause1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice_field="x_sogd_hacn_job_code2" label="RootCause2" max_length="40" name="u_rootcause2" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" choice_field="x_sogd_hacn_job_code1" label="RootCause3" max_length="40" name="u_rootcause3" type="string">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="RootCause4" max_length="40" name="u_rootcause4" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Serial No" max_length="40" name="u_serial_no" type="string"/>
+        <element label="Serial No" max_length="32" name="u_serialno" reference="alm_hardware" reference_qual="serial_numberANYTHING^company=28a2b629db120f00d13efa9ebf96199a^EQ" reference_qual_condition="serial_numberANYTHING^company=28a2b629db120f00d13efa9ebf96199a^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial No" max_length="40" name="u_serial_no" reference="alm_hardware" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Service Level" mandatory="true" max_length="40" name="u_service_level" type="string">
             <choice>
                 <element label="2 HRS" sequence="0" value="2 HRS"/>
@@ -263,6 +284,9 @@
                 <element label="Purchase" sequence="4" value="Purchase"/>
             </choice>
         </element>
+        <element label="Start Time1" max_length="40" name="u_starttime1" type="glide_date_time"/>
+        <element label="Start Time2" max_length="40" name="u_starttime2" type="glide_date_time"/>
+        <element label="Start Time3" max_length="40" name="u_starttime3" type="glide_date_time"/>
         <element label="Start Time" max_length="40" name="u_start_time" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" mandatory="true" max_length="40" name="u_status" type="string">
             <choice>
@@ -311,6 +335,57 @@
                 <element label="Other" sequence="5" value="Other"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Trip1" max_length="40" name="u_trip1" type="string">
+            <choice>
+                <element label="Advice" sequence="0" value="Advice"/>
+                <element label="Cancel" sequence="1" value="Cancel"/>
+                <element label="Delivery Service" sequence="2" value="Delivery Service"/>
+                <element label="Escalation" sequence="3" value="Escalation"/>
+                <element label="Onsite" sequence="4" value="Onsite"/>
+                <element label="Other" sequence="5" value="Other"/>
+                <element label="Phone Support" sequence="6" value="Phone Support"/>
+                <element label="Remote Support" sequence="7" value="Remote Support"/>
+                <element label="Repair" sequence="8" value="Repair"/>
+                <element label="Scheduled" sequence="9" value="Scheduled"/>
+                <element label="Standby" sequence="10" value="Standby"/>
+                <element label="X" sequence="11" value="X"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Trip2" max_length="40" name="u_trip2" type="string">
+            <choice>
+                <element label="Advice" sequence="0" value="Advice"/>
+                <element label="Cancel" sequence="1" value="Cancel"/>
+                <element label="Delivery Service" sequence="2" value="Delivery Service"/>
+                <element label="Escalation" sequence="3" value="Escalation"/>
+                <element label="Onsite" sequence="4" value="Onsite"/>
+                <element label="Other" sequence="5" value="Other"/>
+                <element label="Phone Support" sequence="6" value="Phone Support"/>
+                <element label="Remote Support" sequence="7" value="Remote Support"/>
+                <element label="Repair" sequence="8" value="Repair"/>
+                <element label="Scheduled" sequence="9" value="Scheduled"/>
+                <element label="Standby" sequence="10" value="Standby"/>
+                <element label="X" sequence="11" value="X"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Trip3" max_length="40" name="u_trip3" type="string">
+            <choice>
+                <element label="Advice" sequence="0" value="Advice"/>
+                <element label="Cancel" sequence="1" value="Cancel"/>
+                <element label="Delivery Service" sequence="2" value="Delivery Service"/>
+                <element label="Escalation" sequence="3" value="Escalation"/>
+                <element label="Onsite" sequence="4" value="Onsite"/>
+                <element label="Other" sequence="5" value="Other"/>
+                <element label="Phone Support" sequence="6" value="Phone Support"/>
+                <element label="Remote Support" sequence="7" value="Remote Support"/>
+                <element label="Repair" sequence="8" value="Repair"/>
+                <element label="Scheduled" sequence="9" value="Scheduled"/>
+                <element label="Standby" sequence="10" value="Standby"/>
+                <element label="X" sequence="11" value="X"/>
+            </choice>
+        </element>
+        <element label="User ID1" max_length="32" name="u_userid1" reference="sys_user" type="reference"/>
+        <element label="User ID2" max_length="32" name="u_userid2" reference="sys_user" type="reference"/>
+        <element label="User ID3" max_length="32" name="u_userid3" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="User ID" max_length="40" name="u_user_id" reference="u_ims_user" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Vendor Ref#" max_length="40" name="u_vendor_ref" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Vendor Warranty" max_length="40" name="u_vendor_warranty" type="string"/>
@@ -318,16 +393,43 @@
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Watch List" max_length="1024" name="watch_list" reference="sys_user" type="glide_list"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Work notes list" max_length="1024" name="work_notes_list" reference="sys_user" type="glide_list"/>
         <index name="index">
-            <element name="u_job_code"/>
+            <element name="u_refno"/>
         </index>
         <index name="index2">
-            <element name="u_location"/>
+            <element name="u_reference_6"/>
         </index>
         <index name="index3">
-            <element name="u_assignto"/>
+            <element name="u_serialno"/>
         </index>
         <index name="index4">
-            <element name="u_reference_6"/>
+            <element name="u_userid1"/>
+        </index>
+        <index name="index5">
+            <element name="u_userid3"/>
+        </index>
+        <index name="index6">
+            <element name="u_assetno"/>
+        </index>
+        <index name="index7">
+            <element name="u_job_code"/>
+        </index>
+        <index name="index8">
+            <element name="u_userid2"/>
+        </index>
+        <index name="index9">
+            <element name="u_jobcode1"/>
+        </index>
+        <index name="index10">
+            <element name="u_jobcode2"/>
+        </index>
+        <index name="index11">
+            <element name="u_location"/>
+        </index>
+        <index name="index12">
+            <element name="u_jobcode3"/>
+        </index>
+        <index name="index13">
+            <element name="u_assignto"/>
         </index>
     </element>
 </database>

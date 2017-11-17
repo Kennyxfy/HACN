@@ -2,16 +2,16 @@
 <record_update>
     <sys_ui_section caption="Equipment" section_id="d92f7761dbd20f00d13efa9ebf961924" sys_domain="global" table="x_sogd_hacn_hacn" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_serial_no</element>
+            <element>u_serialno</element>
             <position>0</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>422fb761dbd20f00d13efa9ebf961903</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>d0ae44c8dba60340d13efa9ebf96199c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>u_client_user_id</element>
             <position>1</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>c22fb761dbd20f00d13efa9ebf961903</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>54ae44c8dba60340d13efa9ebf96199c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>u_equipment_email</element>
             <position>2</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>462fb761dbd20f00d13efa9ebf961903</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>d4ae44c8dba60340d13efa9ebf96199c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>u_model_type</element>
             <position>3</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>c62fb761dbd20f00d13efa9ebf961903</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>58ae44c8dba60340d13efa9ebf96199c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>u_model_no</element>
             <position>4</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>4a2fb761dbd20f00d13efa9ebf961903</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>d8ae44c8dba60340d13efa9ebf96199c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>u_user_id</element>
             <position>5</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>ca2fb761dbd20f00d13efa9ebf961903</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>5cae44c8dba60340d13efa9ebf96199c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>u_remark</element>
             <position>6</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>4e2fb761dbd20f00d13efa9ebf961903</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>dcae44c8dba60340d13efa9ebf96199c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,69 +103,69 @@
             <element>.split</element>
             <position>7</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>ce2fb761dbd20f00d13efa9ebf961903</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>50ae44c8dba60340d13efa9ebf96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_ref_no</element>
+            <element>u_assetno</element>
             <position>8</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>422fb761dbd20f00d13efa9ebf961904</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>d0ae44c8dba60340d13efa9ebf96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_refno</element>
+            <position>9</position>
+            <sys_created_by>Fayu.xu</sys_created_by>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>54ae44c8dba60340d13efa9ebf96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
+            <sys_updated_by>Fayu.xu</sys_updated_by>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_contract_no</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>c22fb761dbd20f00d13efa9ebf961904</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>d4ae44c8dba60340d13efa9ebf96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_contract_type</element>
-            <position>10</position>
-            <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>462fb761dbd20f00d13efa9ebf961904</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
-            <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_asset_no</element>
             <position>11</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>c62fb761dbd20f00d13efa9ebf961904</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>58ae44c8dba60340d13efa9ebf96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -173,13 +173,13 @@
             <element>u_effective_date</element>
             <position>12</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>4a2fb761dbd20f00d13efa9ebf961904</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>d8ae44c8dba60340d13efa9ebf96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -187,13 +187,13 @@
             <element>u_expiry_date</element>
             <position>13</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>ca2fb761dbd20f00d13efa9ebf961904</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>5cae44c8dba60340d13efa9ebf96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -201,13 +201,13 @@
             <element>u_vendor_warranty</element>
             <position>14</position>
             <sys_created_by>Fayu.xu</sys_created_by>
-            <sys_created_on>2017-11-08 09:00:48</sys_created_on>
-            <sys_id>4e2fb761dbd20f00d13efa9ebf961904</sys_id>
+            <sys_created_on>2017-11-15 09:54:44</sys_created_on>
+            <sys_id>dcae44c8dba60340d13efa9ebf96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Equipment" display_value="Equipment" name="x_sogd_hacn_hacn" sys_domain="global" view="Default view">d92f7761dbd20f00d13efa9ebf961924</sys_ui_section>
             <sys_updated_by>Fayu.xu</sys_updated_by>
-            <sys_updated_on>2017-11-08 09:00:48</sys_updated_on>
+            <sys_updated_on>2017-11-15 09:54:44</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
